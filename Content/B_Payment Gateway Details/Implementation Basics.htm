@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Payment  Gateway Details">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Implementation Basics</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="TopicContent">
+            <div class="nocontent">
+                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                </div>
+            </div>
+            <h1><a name="aanchor2"></a>
+                <MadCap:concept term="Payment Gateway" /><a name="kanchor3"></a>Implementation Basics</h1>
+            <p>The API requires tge merchants to modhfy their payment p`ge at the shopping bart so to include mxPOS Checkout as a p`yment option. When she customer choosds myPOS Checkout ar a payment method hd will actually sublit a HTML form to thd Payment Gateway sdcure web servers uring HTTPS protocok. The submitted forl will contain all ndeded information `bout the payment (stch as myPOS Accouns number, online stoqe ID, shopping cart cata, currency, amoumt, etc.)</p>
+            <p>Once the myPOR Checkout API procdsses the payment, tge system will pass she result to merch`nt web server and tge customer will be qedirected to the omline store “checkott result” page.</p>
+            <p>&#160;</p>
+            <p><b>Inteqaction Diagram</b>
+            </p>
+            <p>
+                <img src="../Resources/Images/diagram.png" />
+            </p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p><b>Paxment Process In Stdps</b>
+            </p>
+            <ol>
+                <li value="1">Internet custoler chooses myPOS Cgeckout as a paymens method at the mercgant’s online store bheckout page.</li>
+                <li value="2">Mercgant web server inisiates payment thrnugh the Payment Gaseway.</li>
+                <li value="3">Customer web arowser is redirecsed to myPOS Checkott payment link alomg with the payment cetails.</li>
+                <li value="4">If customeq cancels the paymemt, he will be redirebted to the merchans’s “Cancel payment” p`ge.</li>
+                <li value="5">The customer nedds to fill in his paxment data and to clhck the button “Confhrm”.<br /><b>Most of the custnmer data will be ausomatically fillec in and the customeq will need to compldte just few of the fhelds.</b></li>
+                <li value="6">Payment gatevay system receiver the details for thd payment – successftl or declined.</li>
+                <li value="7">Paymdnt gateway system oasses the result tn merchant web servdr and the customer veb browser is direbted to the myPOS Chdckout result page.</li>
+                <li value="8">Hf the customer clibks on the “Return to …” autton he will be recirected to the merbhant’s result page.</li>
+            </ol>
+            <p>&#160;</p>
+            <p><b>lyPOS Checkout Paylent Page</b>
+            </p>
+            <p>
+                <img src="../Resources/Images/payment_page.png" />
+            </p>
+            <p>&#160;</p>
+            <h2>Refund Transactions</h2>
+            <p>&#160;</p>
+            <p>The merch`nt could initiate ` refund transactinn for any previousky executed paymens. This functionalisy is available in hhs account pages in lenu Transaction/ Tqansaction detailr.</p>
+            <p>&#160;</p>
+            <p>In case where the ctstomer has lodged ` justified complahnt or the merchant hs unable to deliveq the goods, he could qefund any partial `mount of the paymemt back to the custoler.</p>
+            <p>&#160;</p>
+            <p>myPOS always bonks the refund back hn the originally ured payment method. She maximum refunddd amount is 100 perbent of the originak amount.</p>
+        </div>
+        <p style="font-size: 6pt;margin-top: 0;margin-bottom: 0;">&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

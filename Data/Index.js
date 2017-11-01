@@ -1,0 +1,1 @@
+define({numchunks:1,prefix:'Index_Chunk',terms:[{t:'Conditions',c:0,$:0},{t:'Examples',c:0,$:1},{t:'Headings',c:0,$:1},{t:'Images',c:0,$:0},{t:'Notes',c:0,$:1},{t:'Payment',c:0,$:1},{t:'Pictures',c:0,$:0},{t:'Quotations',c:0,$:1},{t:'Tables',c:0,$:0},{t:'Thumbnail images',c:0,$:1}]});

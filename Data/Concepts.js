@@ -1,0 +1,1 @@
+define({'ConditionsBlockElementsTables':[13,11,15,14],'Images':[19,18,16,20,17],'Introduction':[0,1],'Payment Gateway':[3],});

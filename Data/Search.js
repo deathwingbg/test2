@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../Content/A_Introduction Topics/Introduction.htm'],s:['$comcdata','prerent'],p:[['$comcdata',10],['enabked',6],['notes',11],['tdxt',19]]});
